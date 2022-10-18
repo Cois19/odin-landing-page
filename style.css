@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Roboto';
+}
+
+.header {
+    background-color: #1F2937;
+}
+
+.odin-image {
+    width: 300px;
+}
+
+.card-image {
+    min-width: 100px;
+    min-height: 100px;
+    border: 3px solid blue
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
