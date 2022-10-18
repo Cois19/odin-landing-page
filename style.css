@@ -99,4 +99,15 @@ button {
 
 .quote {
     background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 100px 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote-source {
+    font-weight: bold;
+    align-self: flex-end;
 }
