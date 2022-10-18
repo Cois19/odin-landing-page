@@ -68,11 +68,33 @@ button {
     width: 500px;
 }
 
+.information {
+    text-align: center;
+    padding-bottom: 75px;
+}
+
+.information-header-text {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card {
+    width: 150px;
+}
+
 .card-image {
-    min-width: 100px;
-    min-height: 100px;
-    border: 3px solid blue;
-    border-radius: 8px;
+    max-width: 150px;
+}
+
+.card-text {
+    color: #1F2937;
 }
 
 .quote {
