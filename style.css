@@ -2,20 +2,77 @@ body {
     margin: 0;
     min-height: 100vh;
     font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
     background-color: #1F2937;
+    padding: 0 250px;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+.header-link {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header-bottom {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+}
+
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.hero-subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 5px 20px;
+    border-radius: 8px;
+}
+
+.header-signup {
+    text-decoration: none;
+    color: #F9FAF8;
 }
 
 .odin-image {
-    width: 300px;
+    width: 500px;
 }
 
 .card-image {
     min-width: 100px;
     min-height: 100px;
-    border: 3px solid blue
+    border: 3px solid blue;
+    border-radius: 8px;
 }
 
 .quote {
